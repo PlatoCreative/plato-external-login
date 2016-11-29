@@ -1,6 +1,6 @@
 {
-  "name": "plato-creative/plato-genericlogin",
-  "description": "Module for managing a generic admin login",
+  "name": "plato-creative/plato-external-login",
+  "description": "Module for managing external login",
   "license": "BSD-3-Clause",
   "type": "silverstripe-module",
   "authors": [
@@ -11,8 +11,7 @@
   ],
   "require":
   {
-    "silverstripe/framework": "~3.2",
-    "silverstripe/cms": "~3.2",
-    "guzzlehttp/guzzle" : "6.1.*"
+    "silverstripe/framework": "~3.4",
+    "silverstripe/cms": "~3.4"
   }
 }
