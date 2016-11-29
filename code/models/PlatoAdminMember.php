@@ -2,7 +2,6 @@
 /*
 *   Custom Plato Admin User
 */
-use GuzzleHttp\Psr7;
 class PlatoAdminMember extends Member {
     private static $db = array();
 
