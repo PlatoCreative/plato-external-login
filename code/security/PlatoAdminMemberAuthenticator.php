@@ -54,10 +54,10 @@ class PlatoAdminMemberAuthenticator extends Authenticator {
             }
         }
 
-        if(defined('SS_LOGIN_EMAIL') && defined('SS_LOGIN_FIRSTNAME') && defined('SS_LOGIN_URL')){
+        if(defined('SS_LOGIN_EMAIL') && defined('SS_LOGIN_URL')){
             // Set default details
             $adminEmail = SS_LOGIN_EMAIL;
-            $adminFirstName = SS_LOGIN_FIRSTNAME;
+            $adminFirstName = 'Plato Creative';
             $adminSurname = 'Admin';
 
             // Attempt to identify user by email
