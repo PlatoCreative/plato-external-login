@@ -4,9 +4,6 @@ namespace Platocreative\ExternalLogin\Security;
 
 use InvalidArgumentException;
 
-// use Platocreative\ExternalLogin\Security\ExternalLogin;
-// use Platocreative\ExternalLogin\Forms\ExternalLoginForm;
-// use Platocreative\ExternalLogin\Forms\ExternalLoginCMSMemberLoginForm;
 use SilverStripe\Security\Member;
 use SilverStripe\Control\Email\Email;
 use SilverStripe\Security\Security;
