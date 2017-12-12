@@ -1,16 +1,19 @@
 {
   "name": "plato-creative/plato-external-login",
-  "description": "Module for managing external login",
+  "description": "Provides external login check for the default admin.",
   "license": "BSD-3-Clause",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "authors": [
     {
       "name": "Plato Creative",
-      "email": "info@platocreative.co.nz"
+      "email": "web@platocreative.co.nz"
     }
   ],
   "require":
   {
-    "silverstripe/framework": "~3.4"
+    "silverstripe/framework": "^4.0"
+  },
+  "extra": {
+    "installer-name": "external-login"
   }
 }

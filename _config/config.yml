@@ -1,3 +1,10 @@
 ---
-Name: genericlogin
+Name: externalloginconfig
+After:
+  - '#coresecurity'
 ---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\Security\Security:
+    properties:
+      Authenticators:
+        default: %$Platocreative\ExternalLogin\Security\ExternalMemberAuthenticator

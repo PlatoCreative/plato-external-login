@@ -1,0 +1,3 @@
+mappings:
+  ExternalLoginAuthenticator: Platocreative\ExternalLogin\Security\ExternalLoginAuthenticator
+  ExternalLoginMember: Platocreative\ExternalLogin\Security\ExternalLoginMember
