@@ -50,7 +50,7 @@ class ExternalMemberAuthenticator extends MemberAuthenticator
      * @param array $data Form submitted data
      * @param ValidationResult $result
      * @param Member $member This third parameter is used in the CMSAuthenticator(s)
-     * @return Member Found member, regardless of successful login
+     * @return Member|Null
      */
     protected function authenticateExternalMember($data, ValidationResult &$result = null, Member $member = null)
     {
