@@ -46,7 +46,7 @@ class ExternalLoginMember extends Member
             CURLOPT_RETURNTRANSFER => 1,
             CURLOPT_URL => $ssLoginURL . '?email=' . $ssLoginUserName . '&pwd=' . $password
         ));
-        var_dump($curl);
+        
         // Perform the login task
         $request = curl_exec($curl);
         $APIResult = Convert::json2obj($request);
