@@ -7,4 +7,4 @@ SilverStripe\Core\Injector\Injector:
   SilverStripe\Security\Security:
     properties:
       Authenticators:
-        default: %$Platocreative\ExternalLogin\Security\ExternalMemberAuthenticator
+        default: '%$Platocreative\ExternalLogin\Security\ExternalMemberAuthenticator'
